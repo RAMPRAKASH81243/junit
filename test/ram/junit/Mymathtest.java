@@ -15,9 +15,6 @@ class Mymathtest {
 
 	@Test
 	void test1() {
-		int[] numbers = {};
-		int result = math.sum(numbers);
-		int expectedresult = 0;
-		assertEquals(expectedresult, result);
+		assertEquals(0, math.sum(new int[] {}));
 	}
 }
